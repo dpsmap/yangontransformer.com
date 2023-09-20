@@ -1,0 +1,260 @@
+/*---------------------------------
+Responsive Grid Media Queries - 1280, 1024, 768, 480
+-----------------------------------*/
+/* 1280-1024 	- desktop (default grid) */
+@media all and (min-width: 1024px) and (max-width: 1800px) {
+	#nav-mobile {
+		display: none !important;
+	}
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+	#nav-mobile {
+		display: none !important;
+	}
+}
+/* 1024-768 	- tablet landscape */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+	.header .navbar, .header .header-contact-info, .header .meta-wrapper{
+		display: none !important;
+	}
+
+	.slider-wrapper{
+		top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.header .navbar, .header .metanav{
+		padding-right: 2em !important;
+	}
+
+	.slider-wrapper .slider .slide{
+		min-height: 440px !important;
+	}
+
+
+
+
+	#nav-trigger {
+		display: block !important;
+	}
+
+	.home-blog-post{
+	  width: 48% !important;
+
+	}
+}
+/* 768-480 	- tablet  */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.header .navbar, .header .header-contact-info, .header .meta-wrapper{
+		display: none !important;
+	}
+
+	.slider-wrapper{
+		top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.slider-wrapper .slider .slide{
+		min-height: 440px !important;
+	}
+
+	.slider .slide-text-overlay .text-wrapper h1{
+		font-size: 36px !important;
+	}
+
+	#nav-trigger {
+		display: block !important;
+	}
+
+	.product-box-wrapper{
+	  width: 50% !important;
+	}
+
+	ul.production-process{
+	  width: 250px !important;
+		height: 250px !important;
+	  border-radius: 125px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	ul.production-process:after{
+	  top: 40% !important;
+	  font-size: 20px !important;
+	  line-height: 24px !important;
+	}
+
+	ul.production-process li{
+	  width: 90px !important;
+	  height: 90px !important;
+	  border-radius: 45px !important;
+	}
+
+	.company-address{
+		border-left: 0 !important;
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 20px !important;
+	}
+
+	.page-header{
+    top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+	.page-header h1{
+		font-size: 28px !important;
+	}
+
+	.page-header p{
+		font-size: 20px !important;
+	}
+
+	.products-grid{
+		padding-left: 0 !important;
+	}
+
+	.quality-list li{
+		width: 100% !important;
+		display: block !important;
+	}
+
+	.service-details{
+		padding-left: 0 !important;
+	}
+	.phone-center {
+		text-align: center !important;
+	}
+
+	.signle-product-details{
+		padding-left: 0 !important;
+	}
+
+	.hide-phone{
+		display: none !important;
+	}
+
+}
+/* 480-less 	- phone landscape & smaller */
+@media all and (max-width: 480px) {
+
+
+	h2{
+		font-size: 24px !important;
+	}
+	.header .navbar, .header .header-contact-info, .header .meta-wrapper{
+		display: none !important;
+	}
+
+	.slider-wrapper{
+		top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.slider-wrapper .slider .slide{
+		min-height: 440px !important;
+	}
+
+	.slider .slide-text-overlay .text-wrapper h1{
+		font-size: 26px !important;
+	}
+
+	#nav-trigger {
+		display: block !important;
+	}
+
+	.product-box-wrapper{
+	  width: 100% !important;
+	}
+
+	.product-box-wrapper .product-box{
+		padding: 0 !important;
+	}
+
+	ul.production-process{
+	  width: 200px !important;
+		height: 200px !important;
+	  border-radius: 100px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	ul.production-process:after{
+	  top: 40% !important;
+	  font-size: 20px !important;
+	  line-height: 24px !important;
+	}
+
+	ul.production-process li{
+	  width: 70px !important;
+	  height: 70px !important;
+	  border-radius: 35px !important;
+	}
+
+	.company-address{
+		border-left: 0 !important;
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 20px !important;
+	}
+
+	.page-header{
+    top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+	.page-header h1{
+		font-size: 24px !important;
+	}
+
+	.page-header p{
+		font-size: 16px !important;
+		line-height: 18px !important;
+	}
+
+	.product-category-box .product-category-thumb{
+	  display: table-header-group !important;
+		width: 100% !important;
+	}
+
+	.product-category-box .product-category-description{
+		display: table-footer-group !important;
+		width: 100% !important;
+	}
+
+	.product-category-box .product-category-description div{
+		padding: 0 !important;
+		padding-top: 15px !important;
+	}
+
+	.products-grid{
+		padding-left: 0 !important;
+	}
+
+	.quality-list li{
+		width: 100% !important;
+		display: block !important;
+	}
+
+	.service-details{
+		padding-left: 0 !important;
+	}
+
+	.jobs-table tr td:nth-child(2),
+	.jobs-table tr td:nth-child(3){
+		display: none !important;
+	}
+
+	.phone-center {
+		text-align: center !important;
+	}
+
+	.hide-mobile{
+		display: none !important;
+	}
+
+	.signle-product-details{
+		padding-left: 0 !important;
+	}
+}

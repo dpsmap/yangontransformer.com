@@ -1,0 +1,67 @@
+
+.attachments-attachment-fields-toggle{
+  display: none !important;
+}
+
+.attachments-handle{
+  display: none !important;
+}
+
+.attachments-container .attachment-meta, .attachments-container .media-sidebar{
+  margin-left: 0 !important;
+  width: 100% !important;
+}
+
+.col_12 {
+  width: 98.333333333333%;
+  margin-left: 0.83333333333333%;
+  margin-right: 0.83333333333333%;
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+  float: left;
+  display: block;
+}
+
+.col_6  {
+  width: 48.333333333333%;
+  margin-left: 0.83333333333333%;
+  margin-right: 0.83333333333333%;
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+  float: left;
+  display: block;
+ }
+
+ .tf-cars-meta:after{
+   display: table;
+   width: 100%;
+   content: '';
+   clear: both;
+ }
+
+
+.tf-cars-meta input[type="text"]{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: normal;
+  padding: 5px 10px;
+}
+
+.tf-cars-meta label{
+  font-weight: bold;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.tf-cars-meta em{
+  font-size: 12px;
+  color: #aaa;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tf-cars-meta label.car-price input[type="text"]{
+  font-size: 16px;
+  padding: 10px;
+}

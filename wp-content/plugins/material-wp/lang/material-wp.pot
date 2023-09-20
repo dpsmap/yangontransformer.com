@@ -1,0 +1,541 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the material-wp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: material-wp 0.0.45\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-05 19:41-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../material-wp.php:77
+msgid ""
+"You are about to permanently delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: ../material-wp.php:78
+msgid "Dismiss this notice."
+msgstr ""
+
+#: ../material-wp.php:79
+msgid "Expand / Compress Stage"
+msgstr ""
+
+#: ../material-wp.php:202
+msgid ""
+"It seems that you have a permission error on your server. Material WP "
+"generates static style files, so it needs to be able to write onto the "
+"assets/css folder. <br>Please make sure that directory has a 777 permission "
+"chmod."
+msgstr ""
+
+#: ../material-wp.php:507
+msgid ""
+"Something in your Material WP options may be causing SCSS compiling errors. "
+"Please verify if all of your options have correct values (a color field, for "
+"example, can not contain a value different of a hex code (#fff))"
+msgstr ""
+
+#: ../material-wp.php:536
+msgid "Your custom CSS (with SCSS) code has some syntax error. Please verify."
+msgstr ""
+
+#: ../material-wp.php:745
+msgid "Help"
+msgstr ""
+
+#: ../material-wp.php:757
+msgid "Settings"
+msgstr ""
+
+#: ../material-wp.php:769
+msgid "Logout"
+msgstr ""
+
+#: ../inc/settings.php:11 ../inc/settings.php:12
+msgid "Material WP"
+msgstr ""
+
+#: ../inc/settings.php:13
+msgid ""
+"The badges in each tab represents the number of new options in this version!"
+"<br>Also, check the \"Activate Material WP\" tab to join our "
+"<strong>CodeCanyon Happy Buyers Club</strong>!"
+msgstr ""
+
+#: ../inc/settings.php:25
+msgid "Styling Settings"
+msgstr ""
+
+#: ../inc/settings.php:25 ../inc/settings.php:31
+#, php-format
+msgid "%s new options!"
+msgstr ""
+
+#: ../inc/settings.php:31
+msgid "Functionality"
+msgstr ""
+
+#: ../inc/settings.php:36
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/settings.php:47
+msgid "Custom CSS Code"
+msgstr ""
+
+#: ../inc/settings.php:48
+msgid ""
+"Enter your custom CSS code to be applied to the dashboard! SCSS syntax is "
+"supported!"
+msgstr ""
+
+#: ../inc/settings.php:62
+msgid "Primary Color"
+msgstr ""
+
+#: ../inc/settings.php:63
+msgid ""
+"This color will be used in the admin bar and in the parallax block effect."
+msgstr ""
+
+#: ../inc/settings.php:71
+msgid "Accent Color"
+msgstr ""
+
+#: ../inc/settings.php:72
+msgid "This color will be used in the buttons and links across the admin."
+msgstr ""
+
+#: ../inc/settings.php:80
+msgid "Menu Icons Random Colors"
+msgstr ""
+
+#: ../inc/settings.php:81
+msgid ""
+"Use this option to enable/disable the random colors for the admin links."
+msgstr ""
+
+#: ../inc/settings.php:89
+msgid "Menu Icons Custom Color"
+msgstr ""
+
+#: ../inc/settings.php:90
+msgid ""
+"Select your own color to the admin menu icons. Note: this only works for the "
+"icon-font icons and this options is only user if the \"Menu Icons Random\n"
+"  Colors\" option is disabled."
+msgstr ""
+
+#: ../inc/settings.php:99
+msgid "Admin Menu Width"
+msgstr ""
+
+#: ../inc/settings.php:100
+msgid "Change the width of the sidemenu."
+msgstr ""
+
+#: ../inc/settings.php:111
+msgid "Parallax Block Height"
+msgstr ""
+
+#: ../inc/settings.php:112
+msgid "Change the height of the parallax block."
+msgstr ""
+
+#: ../inc/settings.php:125
+msgid "Stage's Min Height"
+msgstr ""
+
+#: ../inc/settings.php:126
+msgid ""
+"Define the min height for the stage. Put 0 to leave it without a min value."
+msgstr ""
+
+#: ../inc/settings.php:138
+msgid "Adminbar Height"
+msgstr ""
+
+#: ../inc/settings.php:139
+msgid "Change the height of the adminbar."
+msgstr ""
+
+#: ../inc/settings.php:152
+msgid "Adminbar Subitem Height"
+msgstr ""
+
+#: ../inc/settings.php:153
+msgid "Change the height of the items of the adminbar submenu."
+msgstr ""
+
+#: ../inc/settings.php:163
+msgid "Adminbar Subitem Font-Size"
+msgstr ""
+
+#: ../inc/settings.php:164
+msgid "Change the font-size of the adminbar subitems and items."
+msgstr ""
+
+#: ../inc/settings.php:175
+msgid "Parallax Block Settings"
+msgstr ""
+
+#: ../inc/settings.php:176
+msgid ""
+"Here you can select the style of the display of the parallax block. You can "
+"choose to use a solid color, the parallax with the opacity effect or just "
+"the parallax effect."
+msgstr ""
+
+#: ../inc/settings.php:180
+msgid "Parallax + Opacity Effect"
+msgstr ""
+
+#: ../inc/settings.php:181
+msgid "Only Parallax Effect"
+msgstr ""
+
+#: ../inc/settings.php:182
+msgid "Solid Color"
+msgstr ""
+
+#: ../inc/settings.php:189
+msgid "Parallax BG Color"
+msgstr ""
+
+#: ../inc/settings.php:190
+msgid "Select the background color of the parallax block."
+msgstr ""
+
+#: ../inc/settings.php:198
+msgid "Preset Parallax Block BG"
+msgstr ""
+
+#: ../inc/settings.php:199
+msgid ""
+"Select the background image of the parallax block from one of our preset "
+"images. You you prefer, you can choose your own image using the field bellow."
+msgstr ""
+
+#: ../inc/settings.php:214
+msgid "Custom Parallax Block BG"
+msgstr ""
+
+#: ../inc/settings.php:215
+msgid "Select your custom Parallax Block BG."
+msgstr ""
+
+#: ../inc/settings.php:217
+msgid "Select your custom parallax block BG."
+msgstr ""
+
+#: ../inc/settings.php:224
+msgid "Custom Logo"
+msgstr ""
+
+#: ../inc/settings.php:225
+msgid ""
+"Select the custom Logo you want to use. It will be displayed in the admin "
+"bar and in the login page as well."
+msgstr ""
+
+#: ../inc/settings.php:227
+msgid "Select your custom logo image."
+msgstr ""
+
+#: ../inc/settings.php:243
+msgid "Admin Menu"
+msgstr ""
+
+#: ../inc/settings.php:244
+msgid "Use this block to change the settings regarding the admin menu"
+msgstr ""
+
+#: ../inc/settings.php:251
+msgid "Menu Reordering"
+msgstr ""
+
+#: ../inc/settings.php:252
+msgid ""
+"If enabled, the reordering functionality will be presented to the backend "
+"users."
+msgstr ""
+
+#: ../inc/settings.php:260
+msgid "Menu Label"
+msgstr ""
+
+#: ../inc/settings.php:261
+msgid ""
+"Select the little text that appears ontop of the admin menu. Leave blank to "
+"display nothing."
+msgstr ""
+
+#: ../inc/settings.php:264
+msgid "Main Menu"
+msgstr ""
+
+#: ../inc/settings.php:270
+msgid "Menu Position"
+msgstr ""
+
+#: ../inc/settings.php:271
+msgid "You can position the admin menu in either side of the screen."
+msgstr ""
+
+#: ../inc/settings.php:275
+msgid "Left"
+msgstr ""
+
+#: ../inc/settings.php:276
+msgid "Right"
+msgstr ""
+
+#: ../inc/settings.php:284
+msgid "Display Avatar Block"
+msgstr ""
+
+#: ../inc/settings.php:285
+msgid "Select if you want to display or not the avatar block."
+msgstr ""
+
+#: ../inc/settings.php:294
+msgid "Link in the Avatar"
+msgstr ""
+
+#: ../inc/settings.php:295
+msgid "You can choose to use a custom link for the avatar block."
+msgstr ""
+
+#: ../inc/settings.php:297
+msgid "Defaults to the WordPress default profile link."
+msgstr ""
+
+#: ../inc/settings.php:309
+msgid "Admin Bar"
+msgstr ""
+
+#: ../inc/settings.php:310
+msgid "Use this block to change the settings regarding the admin bar"
+msgstr ""
+
+#: ../inc/settings.php:316
+msgid "Link in the Logo - Admin"
+msgstr ""
+
+#: ../inc/settings.php:317
+msgid ""
+"Change the link in the logo displayed in the admin bar. Leave blank to link "
+"to your the admin panel homepage."
+msgstr ""
+
+#: ../inc/settings.php:319
+msgid "Defaults to your admin panel homepage"
+msgstr ""
+
+#: ../inc/settings.php:324
+msgid "Admin Bar in the Frontend"
+msgstr ""
+
+#: ../inc/settings.php:325
+msgid ""
+"You can choose to use the default WordPress admin bar styles in the frontend "
+"by disabling our custom styles."
+msgstr ""
+
+#: ../inc/settings.php:332
+msgid "Display user card on the WP Toolbar"
+msgstr ""
+
+#: ../inc/settings.php:333
+msgid ""
+"If you enable this option, the user card will be displayed in the WP Toolbar "
+"as well. Usefull when using plugins like BuddyPress, for example."
+msgstr ""
+
+#: ../inc/settings.php:341
+msgid "Display the Settings Link (Cog Icon)"
+msgstr ""
+
+#: ../inc/settings.php:342
+msgid "If enabled, the cog icon will be displayed in the admin top bar."
+msgstr ""
+
+#: ../inc/settings.php:356
+msgid "Login Page"
+msgstr ""
+
+#: ../inc/settings.php:357
+msgid "Use this block to change some options of the login page."
+msgstr ""
+
+#: ../inc/settings.php:363
+msgid "Styles in the Login Page"
+msgstr ""
+
+#: ../inc/settings.php:364
+msgid ""
+"You can choose to use the default WordPress login styles by disabling our "
+"custom styles."
+msgstr ""
+
+#: ../inc/settings.php:371
+msgid "Link in the Logo"
+msgstr ""
+
+#: ../inc/settings.php:372
+msgid ""
+"Change the link in the logo displayed above the login form. Leave blank to "
+"link to your site's homepage."
+msgstr ""
+
+#: ../inc/settings.php:374
+msgid "Defaults to your site's homepage"
+msgstr ""
+
+#: ../inc/settings.php:379
+msgid "Display \"Back to Blog\" link?"
+msgstr ""
+
+#: ../inc/settings.php:380
+msgid ""
+"Using this option you can choose to display or hide the back to blog link in "
+"the admin form."
+msgstr ""
+
+#: ../inc/settings.php:393
+msgid "Page Blacklist & Target Settings"
+msgstr ""
+
+#: ../inc/settings.php:394
+msgid ""
+"Use this section to blacklist some pages on Material WP. Pages that match "
+"that URL will not have the styles applied to them. You can always select the "
+"role or user to apply Material WP."
+msgstr ""
+
+#: ../inc/settings.php:400
+msgid "Pages Blacklist"
+msgstr ""
+
+#: ../inc/settings.php:401
+msgid ""
+"Add URLs or URL fragments to exclude certain pages from receiving the "
+"Material WP styles. One URL per line."
+msgstr ""
+
+#: ../inc/settings.php:417
+msgid "Roles to Apply"
+msgstr ""
+
+#: ../inc/settings.php:418
+msgid ""
+"Select the roles to apply Material WP. Do not select anything to apply to "
+"all."
+msgstr ""
+
+#: ../inc/settings.php:439
+msgid "Users to Apply"
+msgstr ""
+
+#: ../inc/settings.php:440
+msgid ""
+"Select the user to apply Material WP. Do not select anything to apply to all."
+msgstr ""
+
+#: ../inc/settings.php:455
+msgid "Help and Screen Options Tab"
+msgstr ""
+
+#: ../inc/settings.php:456
+msgid ""
+"Change the visibility of the Help and Screen Options tab of the WordPress "
+"admin."
+msgstr ""
+
+#: ../inc/settings.php:463
+msgid "Display Help Tab"
+msgstr ""
+
+#: ../inc/settings.php:464
+msgid "Use this option to change the visibility of the Help tab."
+msgstr ""
+
+#: ../inc/settings.php:472
+msgid "Display Screen Options Tab"
+msgstr ""
+
+#: ../inc/settings.php:473
+msgid "Use this option to change the visibility of the Screen Options tab."
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:11
+msgid "Background"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:12
+#: ../modules/login-customizer/login-customizer.php:18
+#: ../modules/login-customizer/login-customizer.php:24
+msgid "Material WP Login"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:17
+msgid "Login Block"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:23
+msgid "Inputs"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:32
+msgid "Block Padding"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:33
+msgid "Select the padding to be applied to the login block."
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:42
+msgid "Block Background Color"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:43
+msgid "Select the background color to be applied to the login block."
+msgstr ""
+
+#: ../modules/menu-editing/views/actions.php:6
+#: ../modules/menu-editing/views/actions.php:8
+msgid "Edit Menu"
+msgstr ""
+
+#: ../modules/menu-editing/views/actions.php:13
+#: ../modules/menu-editing/views/actions.php:15
+msgid "Save Menu"
+msgstr ""
+
+#: ../modules/menu-editing/views/actions.php:16
+msgid "Saving..."
+msgstr ""
+
+#: ../modules/menu-editing/views/actions.php:17
+msgid "Saved!"
+msgstr ""
+
+#: ../modules/menu-editing/views/actions.php:22
+#: ../modules/menu-editing/views/actions.php:24
+msgid "Restore Menu"
+msgstr ""
+
+#: ../views/parallax-block.php:56
+msgid "Edit your profile"
+msgstr ""

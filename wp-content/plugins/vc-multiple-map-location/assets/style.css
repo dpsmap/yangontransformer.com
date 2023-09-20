@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------*/
+/* Visual Composer CSS extend
+/*---------------------------------------------------------------*/
+
+/* Set icon */
+.vc_multiple_map_location { 
+	background-image: url('vc_multiple_map_location.png'); 
+	background-position:0px !important;
+}
+.vc_multiple_map_location_plus{ 
+	background-image: url('vc_multiple_map_location-plus.png');  
+	background-position:0px !important;
+}
+
+/*Default style*/
+.location_list{
+	padding:20px 0px;
+}
+
+.location_list span{
+	color:#333;
+}
+
+span.address {
+    cursor: pointer;
+}
+
+.all_location {
+    background-color: #ddd;
+    border: 1px solid #666;
+    border-radius: 4px;
+    color: #666;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 20px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+
+.googlemap {
+    position: relative;
+}
